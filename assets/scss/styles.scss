@@ -833,26 +833,26 @@ img{
 
 /*==================== FOOTER ====================*/
 .footer{
-    padding-top: 2rem;
+    padding-top: 1rem;
     
     &__container{
-        row-gap: 3.5rem;
+        row-gap: 1rem;
     }
     &__bg{
         background-color: var(--first-color-second);
-        padding: 2rem 0 3rem;
+        padding: 1rem 0 1rem;
     }
     &__title{
         font-size: var(--h1-font-size);
-        margin-bottom: var(--mb-0-25);
+        margin-bottom: var(--mb-0-10);
     }
     &__subtitle{
-        font-size: var(--small-font-size);
+        font-size: var(--normal-font-size);
     }
     &__links{
         display: flex;
         flex-direction: column;
-        row-gap: 1.5rem;
+        row-gap: 1rem;
     }
     &__link{
         &:hover{
@@ -870,7 +870,7 @@ img{
         font-size: var(--smaller-font-size);
         text-align: center;
         color: var(--text-color-light);
-        margin-top: var(--mb-3);
+        margin-top: var(--mb-1);
     }
     &__title,
     &__subtitle,
@@ -963,10 +963,10 @@ img{
             justify-content: center;
         }
         &__content{
-            padding-right: 3.5rem;
+            padding-right: 1rem;
         }
         &__modal{
-            padding: 0 .5rem;
+            padding: 0 .1rem;
         }
     }
     

@@ -5,7 +5,7 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 51.5;
+  --hue-color: 200;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -290,7 +290,7 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 185px;
 }
 
 .home__data {
@@ -391,7 +391,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 100px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
@@ -502,11 +502,11 @@ img {
 }
 
 .skills__js {
-  width: 60%;
+  width: 80%;
 }
 
 .skills__react {
-  width: 85%;
+  width: 75%;
 }
 
 .skills__php {
@@ -943,7 +943,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: var(--text-color);
   margin-top: var(--mb-3);
 }
 

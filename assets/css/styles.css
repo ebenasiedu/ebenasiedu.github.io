@@ -148,7 +148,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: 950px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -522,7 +522,7 @@ img {
 }
 
 .skills__python {
-  width: 55%;
+  width: 60%;
 }
 
 .skills__figma {

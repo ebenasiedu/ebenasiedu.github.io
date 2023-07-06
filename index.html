@@ -31,7 +31,7 @@
 
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
+                                <i class="uil uil-user nav__icon"></i> About Me
                             </a>
                         </li>
 
@@ -44,6 +44,12 @@
                         <li class="nav__item">
                             <a href="#publications" class="nav__link">
                                 <i class="uil uil-briefcase-alt nav__icon"></i> Publications
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Workshops" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Workshops
                             </a>
                         </li>
 
@@ -120,12 +126,13 @@
             
                                     <div class="home__data">
                                         <h1 class="home__title">Hi, I'm Eben</h1>
-                                        <h3 class="home__subtitle">I'm a PhD student at the <a href="https://t.co/iQr7wAZPcq"> Krawczyk Lab </a> at the <a href="https://www.vai.org/"> Van Andel Institute </a></h3>
+                                        <h3 class="home__subtitle">I'm a PhD student at the <a href="https://t.co/iQr7wAZPcq" target="_blank"> Krawczyk Lab </a> at the <a href="https://www.vai.org/" target="_blank"> Van Andel Institute </a></h3>
                                         <p class="home__description">I study dendritic cells (DCs). DCs are critical to our immune system. They recognize foreign entities in our body and then 
                                              inform or prepare other immune cells like T cells to destroy these foreign entities. </p>
                                         <p class="home__description">Typically, many aspects of cellular biology are supported by metabolism. Also, environmental changes tend to alter these cellular metabolic programs. </p>
                                         <p class="home__description">My PhD work is focused on understanding the metabolic programs that support multiple aspects of DC biology and unravelling how environmental changes affect these metabolic programs. 
                                             Envronmental cues such as dietary modifications and the tumor microenvironment are of particular interest to me. </p>
+                                        <p class="home__description">The goal of my PhD work is to harness the inherent metabolic and epigenetic traits of DCs to enhance the effectiveness of immunotherapy against cancer, autoimmune diseases, and viral infections.</p>
                                         <a href="#contact" class="button button--flex">
                                             Contact Me <i class="uil uil-message button__icon"></i>
                                         </a>
@@ -165,8 +172,7 @@
                         </div>
 
                         <div class="about__buttons">
-                            <!--==================== Change your CV ====================-->
-                            <a download="" href="assets/pdf/CV.pdf" class="button button--flex">
+                            <a download="" href="assets/pdf/CV.pdf" target="_blank" class="button button--flex">
                                 Download my CV <i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -687,7 +693,7 @@
             <!--==================== SERVICES ====================-->
             <section class="services section" id="publications">
                 <h2 class="section__title">Selected Publications</h2>
-                <span class="section__subtitle"> <a href="https://t.co/YBT5BnFH6i"> See all publications here </a> </span>
+                <span class="section__subtitle"> <a href="https://t.co/YBT5BnFH6i" target="_blank" > See all publications here </a> </span>
                  
                 <div class="services__container container grid">
                     <!--=============== SERVICES 1 ===============-->
@@ -696,7 +702,7 @@
                             <h3 class="services__title"> Malaria biomarkers <br> using transcriptomics and machine learning</h3>
                         </div>
                         <span class="button button--flex button--small button--link services__button">
-                            <a href ="http://dx.doi.org/10.1016/j.genrep.2022.101650"> Read More </a>
+                            <a href ="http://dx.doi.org/10.1016/j.genrep.2022.101650"  target="_blank"> Read More </a>
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
                     </div>
@@ -707,7 +713,7 @@
                             <h3 class="services__title">SARS-CoV-2 therapeutic <br> predictions using Immunoinformatics and protein modeling</h3>
                         </div>
                         <span class="button button--flex button--small button--link services__button">
-                            <a href ="https://doi.org/10.1016/j.biopha.2020.110914"> Read More </a>
+                            <a href ="https://doi.org/10.1016/j.biopha.2020.110914"  target="_blank"> Read More </a>
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
                     </div>
@@ -718,17 +724,47 @@
                             <h3 class="services__title">Drug screening for <br> filarial infections using computational tools</h3>
                         </div>
                         <span class="button button--flex button--small button--link services__button">
-                            <a href ="https://doi.org/10.1038/s41598-021-87976-4"> View More </a>
+                            <a href ="https://doi.org/10.1038/s41598-021-87976-4"  target="_blank"> View More </a>
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
                     </div>
                 </div>
             </section>
 
+            <!--==================== Workshops ====================-->
+            <section class="portfolio section" id="Workshops">
+                <h2 class="section__title">Workshops</h2>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--=============== Workshop 1 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/introR.png" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Introduction to R</h3>
+                                <p class="portfolio__description">This mini-workshop is aimed at providing an introduction to the powerful R programming language and its vast applications to data analysis, graphics, and modeling.</p>
+                                <a href="r_miniworkshop.html"  target="_blank" class="button button--flex button--small portfolio__button">
+                                    More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="talks">
-                <h2 class="section__title">Talks</h2>
+                <h2 class="section__title">My talks</h2>
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--=============== PORTFOLIO 1 ===============-->
@@ -737,14 +773,6 @@
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Graduate School Seminar Series </h3>
                                 <p class="portfolio__description">March 30, 2023</p>
-                            </div>
-                        </div>
-                        <!--=============== PORTFOLIO 2 ===============-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <video width="300" height="300" controls alt=""> <source src="assets/videos/3MT.mp4" type="video/mp4" > Your browser does not support the video tag.  </video>
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">3 minutes summary of rotation experience</h3>
-                                <p class="portfolio__description">February 03, 2023</p>
                             </div>
                         </div>
                     </div>
